@@ -1,0 +1,126 @@
+:root{
+    --white-color:#fff;
+}
+*{ 
+    font-family: 'Signika Negative', sans-serif;
+    
+}
+body{
+    background-color:rgb(229, 235, 252) ;
+    height: 100vh;margin: 0px;
+    background-image: url(/order-summary-component-main/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size:100% 45%;
+}
+.background{
+    width: 100%;
+    display: inline;
+    z-index: -2;
+}
+.contanir{
+    width: 500px;
+    position: relative;
+    top: 50%;
+    padding: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--white-color);
+    border-radius: 20px ;
+    margin: 0;
+    box-shadow: 13px 15px 19px 4px rgba(131, 127, 127, 0.356);
+}
+.header{
+    height: 195px;
+}
+.header img{
+    width: 116%;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px;background-color:var(--white-color);
+    position: relative;
+    left: -40px;
+    top: -100px;
+}
+.body{
+    background-color: var(--white-color)!important;
+}
+h1{
+    
+    color: black;
+    display: flex;
+    align-self:center;
+    justify-content: center;
+}
+.description{
+    font-size: 20px;
+    margin: 0px 70px;
+    text-align: center;
+    color: rgb(149, 149, 151);
+    height: fit-content;
+}
+.subscribe{
+    background-color: #f8f8f8;
+    display: flex;
+    padding: 20px 70px 0px 40px;
+    height: 90px;
+    width: 300px;
+    position: relative;
+    left: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.subscribe img{
+    width: 65px;
+    height:65px;
+}
+.annual{
+    position: relative;
+    top: -30px;
+    padding-left: 30px;
+    font-size: 25px;
+}
+.annual::after{
+    content: "$59.99/year";
+    position: relative;
+    top: -35px;
+    font-size: 20px;
+    color: rgb(149, 149, 151);
+}
+.link{
+    font-size: 19px;
+    position: relative;
+    top:20px ;
+    left:74px ;
+}
+a:hover{
+    color: #4236eed5
+}
+.pay{
+    background-color:#372ae0 ;
+    padding: 20px 10px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 40px 0px 40px;
+    width: 390px;
+    position: relative;
+    left: 40px;
+    border-radius:10px ;
+    box-shadow: 10px 10px 20px rgba(56, 41, 224, 0.15), 15px 15px 30px rgba(56, 41, 224, 0.15);
+}
+.pay:hover{
+    background-color: #4236eed5;
+}
+.cancel{
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: bold;
+}
+.cancel:hover{
+    color: black;
+}
